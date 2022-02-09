@@ -9,6 +9,11 @@
 
 }
 
+h1{
+    font-size: 48px;
+    font-weight: lighter;
+}
+
 .intro_bg{
     background-image:url("img/intro.png");
     width:100%;
@@ -61,4 +66,56 @@
 
 .nav > li > a{
     color: #fff;
+}
+
+.intro_text{
+    width: 100%;
+    margin: 231px auto 231px auto;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+
+}
+
+
+.intro_text > h1{
+    color: #fff;
+}
+
+.intro_text > h4{
+    color: #fff;
+    font-weight: lighter;
+}
+
+.contents1{
+    font-size: 20px;
+}
+.contents2{
+    font-size: 24px;
+    font-weight: medium;
+}
+.amount{
+    position: relative;
+    top: -66px;
+    margin: auto;
+    display: flex;
+    width: 1280px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.amount >li{
+    background-color: rgba(0, 0, 0, 0);
+    flex: 1;
+    height: 132px;
+    width: 320px;
+
+}
+
+.amount > li > div{
+    background-color:rgba(0, 0, 0, 0);
+    text-align: center;
+    height: 57px;
+    margin-top: 37px;
+}
+.amount > li:not(:last-child) > div{
+    border-right: 1px solid #E1E1E1;
 }
