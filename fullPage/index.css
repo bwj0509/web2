@@ -1,0 +1,18 @@
+/*index.css*/
+
+.section{
+    color: white;
+}
+
+.s0{
+    background-image: url('img/mt.jpg');
+    background-size: cover;
+}
+
+#fp-nav ul li a span{
+    background-color: #fff;
+}
+
+.s1 h3{
+    display: none;
+}
