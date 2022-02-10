@@ -32,14 +32,18 @@
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0);
     margin-top: 15px;
-    margin-left: 740px;
+    margin-left: 670px;
 }
 
 .addfunc > li{
-    margin: 10px;
+    margin: 10px;       
 }
 .addfunc > li>a{
     font-size: 13px;
+}
+.addfunc > li:not(:last-child) > a{
+    border-right:1px solid gray;
+    padding-right: 20px;
 }
 
 .nav{
@@ -50,14 +54,22 @@
 
 .nav_section{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .nav_section > li{
-    margin: 15px 120px 0px 15px
+    margin: 15px 50px 0px 15px
+}
+.nav_section > li:first-child{
+    padding-left: 130px;
 }
 .nav_section > li > a{
     color: #fff;
     font-weight: bold;
+
+}
+.nav_section > li:not(:last-child) > a{
+    border-right: 5px dotted #fff;
+    padding-right: 70px;
 }
 
 .main_img{
