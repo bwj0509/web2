@@ -105,17 +105,48 @@
     top: -200px;
     width: 1240px;
     height: 315px;
-    background-color: aquamarine;
+    background-color: #06799b;
     margin: auto;
     display: flex;
 }
 .popup_left{
     flex:1;
-    background-color: rgb(230, 176, 176);
+    background-image: url("img/banner_left.png");
 }
 .popup_right{
     flex: 1;
-    background-color: rgb(172, 172, 233);
+    background-color: rgba(0, 0, 0, 0);
+    width: 620px;
+    height: 300px;
+}
+.popup_right > h3{
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0)
+}
+.quickmenu > li{
+    float: left;
+    width: 20%;
+    height: 110px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.quickmenu>li  > span:first-child{
+width: 100%;
+height: 110px;
+
+
+}
+
+.quickmenu > li > span:last-child{
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
 }
 
 .mc0{
@@ -127,6 +158,7 @@
     margin-top: -150px;
 }
 .mc0_left{
+    padding-right: 30px;
     flex: 1;
 }
 .mc0_left> h3{
@@ -145,7 +177,7 @@
     
 }
 .mc0_center{
-    margin-left: 30px;
+    ;
     flex: 1;
 }
 .mc0_center> h3{
@@ -165,6 +197,10 @@
 }
 .mc0_right{
     flex: 1;
+    background-image: url("img/mojib.JPG");
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    
 }
 
 .mc1{
@@ -260,7 +296,6 @@ footer{
 }
 .gongji_center1 > li > img{
     transition: all 0.2s linear;
-    
     width: 150px;
     height: 150px;
 }
