@@ -255,7 +255,10 @@ height: 110px;
 }
 .mc1_right{
     flex: 25;
+    padding: 20px;
     border: 1px solid #ddd;
+    background : url(img/book_deco.jpg) no-repeat right bottom;
+
 }
 
 .banner{
