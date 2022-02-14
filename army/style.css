@@ -260,6 +260,29 @@ height: 110px;
     background : url(img/book_deco.jpg) no-repeat right bottom;
 
 }
+.ebook_background{
+    width: 155px;
+    height: 193px;
+    background-image: url(img/ebook_border.png);
+}
+
+.ebook_img{
+    padding: 2px 0px 0px 5px;
+    display: block;
+    width: 149px;
+    margin: auto;
+}
+.ebook > a >h2{
+    text-align: right;
+    cursor: pointer;
+}
+.ebook_title{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0px 0px 0px;
+    display: block;
+    text-align: center;
+}
 
 .banner{
     background-color: #e5e5e5;
