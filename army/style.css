@@ -271,6 +271,7 @@ height: 110px;
     display: block;
     width: 149px;
     margin: auto;
+    cursor: pointer;
 }
 .ebook > a >h2{
     text-align: right;
@@ -397,4 +398,95 @@ footer{
 }
 .cont{
     font-size:14px
+}
+.banner{
+    overflow: hidden;
+    display: block;
+}
+
+.banner_inner{
+    width: 1240px;
+    height: 82px;
+    margin: auto;
+    display: flex;
+}
+
+.banner_inner > h3{
+    flex:10;
+    background-color: red;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0px 0px 0px;
+}
+
+.banner_list{
+    flex:70;
+    margin-left: 40px;
+    padding: 20px 0px;
+    background-color: royalblue;
+    max-width: 698px;
+    width: 100%;
+    height: 100% !important;
+}
+.banner_site{
+    flex: 37;
+    background-color: salmon;
+}
+
+.banner_site_1{
+    display: inline-block;
+    background-color: blue;
+    width: 140px;
+}
+.banner_site_1 > a:{
+    padding: 20px;
+}
+
+.banner_site_2{
+    display: inline-block;
+    background-color: yellow;
+    width: 140px;
+}
+.banner_site_2 > a{
+    padding: 20px;
+}
+
+.footer_up_container{
+    position: relative;
+    margin: 0px auto;
+    width: 1240px;
+    height: 100%;
+}
+.footer_up_container > ul > li{
+    display: inline-block;
+    margin: 20px 0 0 0;
+
+}
+.footer_up_container > ul > li:not(:last-child){
+    border-right: 1px solid gray;
+}
+.footer_up_container > ul > li > a{
+    position: relative;
+    padding: 24px 13px;
+    color: #e3e3e3;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.footer_down_container{
+    position: relative;
+    width: 1240px;
+    height: 100%;
+}
+.footer_down_container > img{
+    margin: 10px;
+    float: left;
+}
+.footer_down_container > p{
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 14px;
+}
+.backred{
+    padding-top: 20px;
 }
